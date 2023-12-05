@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #191919;
+}
+.card{
+    width: 90%;
+    max-width: 470px;
+    background: linear-gradient(135deg, #00febc, #5b548c);
+    color: #fff;
+    margin: 100px auto 100px;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffe;
+    color: #444;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    border-radius: 50%;
+    background: transparent;
+    position: absolute;
+    right: 20px;
+}
+
+.weather-icon{
+    width: 180px;
+    height: 180px;
+    margin-top: 30px;
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+    font-family: 'Sora', sans-serif;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.text{
+    font-family: 'Raleway', sans-serif;
+}
+
+.col img{
+    width: 70px;
+    margin-right: 15px;
+    filter: invert(100%);
+}
+.humidity, .wind{
+    font-size: 28px;
+    font-family: 'Sora', sans-serif;
+    margin-top: -5px;
+}
+
+.weather{
+    display: none;
+}
+
+.error{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 40px;
+    display: none;
+}
