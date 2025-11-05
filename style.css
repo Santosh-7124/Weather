@@ -5,12 +5,17 @@
 }
 
 body {
-  background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+  width: 100%;
+  min-height: 100svh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to top, #09203f 0%, #537895 100%);
 }
 .card {
-  width: 90%;
+  width: 100%;
   max-width: 470px;
-  background-image: radial-gradient(
+  background: radial-gradient(
     circle 248px at center,
     #16d9e3 0%,
     #30c7ec 47%,
